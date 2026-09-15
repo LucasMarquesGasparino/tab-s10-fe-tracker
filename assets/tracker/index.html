@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c1230">
+<title>Tab S10 FE • Rastreador de Preços</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="logo">S10</div>
+      <div>
+        <h1>Galaxy Tab S10 FE<br><span style="font-weight:600;color:#00e5a0">Rastreador</span></h1>
+        <p>16 lojas • atualização diária 10h</p>
+      </div>
+    </div>
+    <div class="badge" id="badgeCount">16 LOJAS</div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-top">
+      <div>
+        <h2>Encontre o <span>menor preço</span> agora</h2>
+        <p class="hero-desc">Encontra o anúncio exato do Galaxy Tab S10 FE 128GB Wi-Fi e acompanha o preço na página real do produto, sem misturar parcelas, acessórios ou outros modelos.</p>
+        <div class="stats">
+          <div class="stat">⏱ <b id="statLast">nunca</b> • última verificação</div>
+          <div class="stat">🏆 <b id="statBest">—</b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="notif-banner" id="notifBanner">
+      <p><b>🔔 Notificações desativadas</b><br>Ative para receber o menor preço mesmo com o app fechado.</p>
+      <button class="btn-warn" id="btnEnableNotif">Ativar</button>
+    </div>
+
+    <button class="btn-primary" id="btnCheck">
+      <span class="spin"></span>
+      <span class="txt">🔍 Verificar preços agora</span>
+    </button>
+    <button class="btn-secondary" id="btnDiscover">🔗 Redescobrir links dos produtos</button>
+    <div class="progress" id="progress"><i id="progressBar"></i></div>
+
+    <div class="controls">
+      <div class="card">
+        <h3>Automático diário</h3>
+        <div class="toggle-row">
+          <p>Verificar todo dia às <b>10:00</b> mesmo com app fechado</p>
+          <div class="switch on" id="switchAuto" role="switch" aria-checked="true" tabindex="0"></div>
+        </div>
+        <div class="meta" id="metaAlarm">Próxima: calculando...</div>
+      </div>
+      <div class="card">
+        <h3>Status</h3>
+        <div class="meta" id="metaStatus">Pronto para verificar</div>
+        <div class="meta" id="metaExact" style="margin-top:6px;color:#ffb020;display:none">⚠️ Permissão de alarme exato negada — <a href="#" id="linkExact" style="color:#ffb020;text-decoration:underline">corrigir</a></div>
+        <div class="meta" style="margin-top:8px">💡 Dica: desative economia de bateria para este app para garantir o alarme das 10h.</div>
+      </div>
+    </div>
+
+    <div class="best-card" id="bestCard">
+      <div class="eyebrow">🏆 Menor preço encontrado</div>
+      <div class="price" id="bestPrice">R$ —</div>
+      <div class="store" id="bestStore">—</div>
+      <div class="actions">
+        <button class="btn-light" id="btnBestOpen">Abrir loja</button>
+        <button class="btn-ghost" id="btnBestShare">Compartilhar</button>
+      </div>
+    </div>
+
+    <div class="hint">
+      <b>Como funciona:</b> na primeira verificação o app encontra o anúncio do <b>Galaxy Tab S10 FE 128GB Wi-Fi</b>, salva o link real e lê o preço estruturado da página do produto. As próximas verificações usam esse mesmo link e registram o histórico. Use <b>Redescobrir links</b> se uma loja trocar o anúncio.
+    </div>
+  </section>
+
+  <div class="section-head">
+    <h3>Lojas monitoradas</h3>
+    <span id="countAvail">—</span>
+  </div>
+  <div class="stores" id="storesList"></div>
+
+  <div class="footer">
+    Tab S10 FE Preços • não afiliado às lojas • preços lidos das páginas dos produtos • Samsung Galaxy Tab S10 FE 128GB Wi-Fi • links e histórico salvos localmente • v2.0
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

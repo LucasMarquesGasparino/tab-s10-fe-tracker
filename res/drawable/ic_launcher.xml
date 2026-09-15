@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- fundo -->
+    <path android:fillColor="#0C1230" android:pathData="M0,0h108v108h-108z"/>
+    <!-- tablet -->
+    <path android:fillColor="#111A4A" android:strokeColor="#2A3A7A" android:strokeWidth="1.5"
+          android:pathData="M22,18h64c4,0 7,3 7,7v58c0,4 -3,7 -7,7h-64c-4,0 -7,-3 -7,-7v-58c0,-4 3,-7 7,-7z"/>
+    <!-- tela -->
+    <path android:fillColor="#1E2D6B" android:pathData="M26,26h56v52h-56z"/>
+    <!-- brilho tela -->
+    <path android:fillColor="#2A3A7A" android:pathData="M26,26h56v10h-56z" android:fillAlpha="0.5"/>
+    <!-- tag preço -->
+    <path android:fillColor="#00E5A0" android:pathData="M36,48l24,-14l24,14v14l-24,14l-24,-14z"/>
+    <path android:fillColor="#00C2FF" android:pathData="M36,48l24,-14l24,14v6l-24,14l-24,-14z" android:fillAlpha="0.85"/>
+    <!-- cifrão -->
+    <path android:fillColor="#0C1230"
+          android:pathData="M54,55c-1.5,0 -2.8,0.6 -3.6,1.5l1.7,1.4c0.5,-0.5 1.1,-0.8 1.9,-0.8c1.1,0 1.8,0.6 1.8,1.4c0,0.8 -0.6,1.2 -2.0,1.6c-1.6,0.5 -3.0,1.2 -3.0,3.0c0,1.6 1.3,2.8 3.2,2.8c1.4,0 2.5,-0.5 3.3,-1.3l-1.6,-1.4c-0.5,0.5 -1.1,0.7 -1.7,0.7c-0.9,0 -1.5,-0.5 -1.5,-1.2c0,-0.7 0.6,-1.1 1.9,-1.5c1.6,-0.5 3.1,-1.2 3.1,-3.1c0,-1.8 -1.4,-3.1 -3.5,-3.1z
+                                M53,52h2v2h-2z M53,65h2v2h-2z"/>
+    <!-- botão home -->
+    <path android:fillColor="#2A3A7A" android:pathData="M51,86h6v2h-6z"/>
+    <!-- S10 FE text -->
+    <path android:fillColor="#EAF0FF" android:pathData="M42,38h2.5l1.8,3.5l1.8,-3.5h2.5l-3.1,5.2h-2.4z M52.5,38h6v1.6h-4v1h3.6v1.5h-3.6v1.1h4v1.6h-6z"/>
+</vector>
